@@ -1,0 +1,33 @@
+{
+  "culture": "zh-Hans",
+  "texts": {
+    "MyAccount": "我的账户",
+    "SamplePageMessage": "BasicManagement模块的示例页面",
+    "Permission:Query": "查询",
+    "Permission:Create": "创建",
+    "Permission:Update": "编辑",
+    "Permission:Delete": "删除",
+    "Permission:Export": "导出",
+    "Permission:Enable": "启用|禁用",
+    "Permission:AuditLogManagement": "审计日志",
+    "Permission:SystemManagement": "系统管理",
+    "Permission:HangfireManagement": "后台任务",
+    "Permission:SettingManagement": "设置管理",
+    "Permission:IdentitySecurityLog": "登录日志",
+    "Permission:OrganizationUnitManagement": "组织结构管理",
+    "Permission:FeatureManagement": "功能管理",
+    "Setting.Group.System": "系统",
+    "Fd.Kit.BasicManagement:NotEmpty": "{0} 不能为空",
+    "Fd.Kit.BasicManagement:PermissionDenied": "权限不足",
+    "Fd.Kit.BasicManagement:ParameterValidationFailed": "请求参数验证失败",
+    "Fd.Kit.BasicManagement:EntityNotFound": "实体不存在",
+    "Fd.Kit.BasicManagement:Unimplemented ": "未实现功能",
+    "Fd.Kit.BasicManagement:DbUpdateConcurrency ": "数据已被修改,请重新提交.",
+    "Fd.Kit.BasicManagement:100001": "组织机构不存在",
+    "Fd.Kit.BasicManagement:100002": "用户被锁定",
+    "Fd.Kit.BasicManagement:100003": "用户名或者密码错误",
+    "Fd.Kit.BasicManagement:100004": "用户已禁用",
+    "Fd.Kit.BasicManagement:100005": "租户不存在",
+    "Fd.Kit.BasicManagement:100006": "当前模块不支持设置数据库连接字符串"
+  }
+}

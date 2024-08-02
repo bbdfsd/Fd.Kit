@@ -1,0 +1,33 @@
+{
+  "culture": "en",
+  "texts": {
+    "MyAccount": "My account",
+    "SamplePageMessage": "A sample page for the BasicManagement module",
+    "Permission:Query": "Query",
+    "Permission:Create": "Create",
+    "Permission:Update": "Update",
+    "Permission:Delete": "Delete",
+    "Permission:Export": "Export",
+    "Permission:Enable": "Enable|Disable",
+    "Permission:SystemManagement": "SystemManagement",
+    "Permission:AuditLogManagement": "AuditLog",
+    "Permission:HangfireManagement": "BackgroundTask",
+    "Permission:SettingManagement": "SettingManagement",
+    "Permission:IdentitySecurityLog": "IdentitySecurityLog",
+    "Permission:OrganizationUnitManagement": "OrganizationUnitManagement",
+    "Permission:FeatureManagement": "FeatureManagement",
+    "Setting.Group.System": "System",
+    "Fd.Kit.BasicManagement:NotEmpty": "{0} can not be empty",
+    "Fd.Kit.BasicManagement:PermissionDenied": "Permission Denied",
+    "Fd.Kit.BasicManagement:ParameterValidationFailed": "Parameter Validation Failed",
+    "Fd.Kit.BasicManagement:EntityNotFound": "Entity Not Found",
+    "Fd.Kit.BasicManagement:Unimplemented ": "Unimplemented",
+    "Fd.Kit.BasicManagement:DbUpdateConcurrency ": "The data has been modified, please resubmi",
+    "Fd.Kit.BasicManagement:100001": "OrganizationUnit Not Exist",
+    "Fd.Kit.BasicManagement:100002": "UserLockedOut",
+    "Fd.Kit.BasicManagement:100003": "UserOrPasswordMismatch",
+    "Fd.Kit.BasicManagement:100004": "UserDisabled",
+    "Fd.Kit.BasicManagement:100005": "Tenant Not Exist",
+    "Fd.Kit.BasicManagement:100006": "Not Support Set ConnectionString"
+  }
+}
