@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Fd.Kit.BasicManagement</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Proxies" />
+    <ProjectReference Include="..\..\src\Fd.Kit.BasicManagement.EntityFrameworkCore\Fd.Kit.BasicManagement.EntityFrameworkCore.csproj" />
+    <ProjectReference Include="..\Fd.Kit.BasicManagement.TestBase\Fd.Kit.BasicManagement.TestBase.csproj" />
+    <PackageReference Include="Volo.Abp.EntityFrameworkCore.Sqlite" />
+  </ItemGroup>
+
+</Project>

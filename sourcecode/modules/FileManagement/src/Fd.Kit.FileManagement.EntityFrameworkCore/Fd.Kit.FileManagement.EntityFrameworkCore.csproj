@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <RootNamespace>Fd.Kit.FileManagement</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+
+        <PackageReference Include="Volo.Abp.EntityFrameworkCore" />
+        <ProjectReference Include="..\Fd.Kit.FileManagement.Domain\Fd.Kit.FileManagement.Domain.csproj" />
+    </ItemGroup>
+    <ItemGroup>
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Tools">
+            <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+            <PrivateAssets>compile; contentFiles; build; buildMultitargeting; buildTransitive; analyzers; native</PrivateAssets>
+        </PackageReference>
+    </ItemGroup>
+</Project>

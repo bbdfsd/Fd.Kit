@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+
+
+    <PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+        <RootNamespace>Fd.KitFileManagement</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Volo.Abp.Http.Client" />
+        <ProjectReference Include="..\Fd.KitFileManagement.Application.Contracts\Fd.KitFileManagement.Application.Contracts.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <EmbeddedResource Include="**\*generate-proxy.json" />
+        <Content Remove="**\*generate-proxy.json" />
+    </ItemGroup>
+
+</Project>

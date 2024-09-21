@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Fd.Kit.BasicManagement</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.EntityFrameworkCore" />
+    <PackageReference Include="Volo.Abp.PermissionManagement.EntityFrameworkCore" />
+    <PackageReference Include="Volo.Abp.SettingManagement.EntityFrameworkCore" />
+    <PackageReference Include="Volo.Abp.Identity.EntityFrameworkCore" />
+    <PackageReference Include="Volo.Abp.BackgroundJobs.EntityFrameworkCore" />
+    <PackageReference Include="Volo.Abp.AuditLogging.EntityFrameworkCore" />
+    <PackageReference Include="Volo.Abp.TenantManagement.EntityFrameworkCore" />
+    <PackageReference Include="Volo.Abp.FeatureManagement.EntityFrameworkCore" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Fd.Kit.BasicManagement.Domain\Fd.Kit.BasicManagement.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <RootNamespace>Fd.KitFileManagement</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.NET.Test.Sdk" />
+        <ProjectReference Include="..\Fd.KitFileManagement.EntityFrameworkCore.Tests\Fd.KitFileManagement.EntityFrameworkCore.Tests.csproj" />
+    </ItemGroup>
+
+</Project>

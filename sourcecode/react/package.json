@@ -1,0 +1,63 @@
+{
+  "name": "Fd.Kit",
+  "version": "1.0.0",
+  "private": true,
+  "description": "An out-of-box UI solution for enterprise applications",
+  "scripts": {
+    "analyze": "cross-env ANALYZE=1 max build",
+    "build": "max build",
+    "i18n-remove": "pro i18n-remove --locale=zh-CN --write",
+    "postinstall": "max setup",
+    "lint": "npm run lint:js && npm run lint:prettier",
+    "lint:fix": "eslint --fix --cache --ext .js,.jsx,.ts,.tsx --format=pretty ./src ",
+    "lint:js": "eslint --cache --ext .js,.jsx,.ts,.tsx --format=pretty ./src",
+    "lint:prettier": "prettier -c --write \"**/**.{js,jsx,tsx,ts,less,md,json}\" --end-of-line auto",
+    "openapi": "max openapi",
+    "prepare": "husky install",
+    "prettier": "prettier -c --write \"**/**.{js,jsx,tsx,ts,less,md,json}\"",
+    "preview": "npm run build && max preview --port 8000",
+    "serve": "umi-serve",
+    "start": "cross-env REACT_APP_ENV=dev UMI_ENV=dev max dev",
+    "start:pre": "cross-env REACT_APP_ENV=pre UMI_ENV=dev max dev",
+    "tsc": "tsc --noEmit"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 10"
+  ],
+  "dependencies": {
+    "@ant-design/icons": "^5.4.0",
+    "@ant-design/pro-components": "^2.7.18",
+    "ahooks": "^3.8.1",
+    "antd": "^5.20.6",
+    "antd-style": "^3.6.3",
+    "classnames": "^2.5.1",
+    "dayjs": "^1.11.13",
+    "lodash": "^4.17.21",
+    "numeral": "^2.0.6",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-json-view": "^1.21.3",
+    "store": "^2.0.12"
+  },
+  "devDependencies": {
+    "@ant-design/pro-cli": "^3.2.1",
+    "@serverless-guru/prettier-plugin-import-order": "^0.4.2",
+    "@umijs/fabric": "^4.0.1",
+    "@umijs/lint": "^4.3.20",
+    "@umijs/max": "^4.3.20",
+    "cross-env": "^7.0.3",
+    "eslint": "^9.10.0",
+    "express": "^4.21.0",
+    "husky": "^9.1.6",
+    "mockjs": "^1.1.0",
+    "prettier": "^3.3.3",
+    "swagger-ui-dist": "^5.17.14",
+    "typescript": "^5.6.2",
+    "umi-presets-pro": "^2.0.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

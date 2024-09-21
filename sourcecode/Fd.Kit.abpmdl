@@ -1,0 +1,85 @@
+{
+  "template": "app",
+  "imports": {
+    "Volo.Abp.Account": {
+      "version": "Unknown",
+      "isInstalled": true
+    },
+    "Volo.Abp.OpenIddict": {
+      "version": "Unknown",
+      "isInstalled": true
+    },
+    "Volo.Abp.Identity": {
+      "version": "Unknown",
+      "isInstalled": true
+    },
+    "Volo.Abp.TenantManagement": {
+      "version": "Unknown",
+      "isInstalled": true
+    }
+  },
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {}
+    }
+  },
+  "packages": {
+    "Fd.Kit.Application": {
+      "path": "src/Fd.Kit.Application/Fd.Kit.Application.abppkg",
+      "folder": "src"
+    },
+    "Fd.Kit.Application.Tests": {
+      "path": "test/Fd.Kit.Application.Tests/Fd.Kit.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "Fd.Kit.Domain.Shared": {
+      "path": "src/Fd.Kit.Domain.Shared/Fd.Kit.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "Fd.Kit.Application.Contracts": {
+      "path": "src/Fd.Kit.Application.Contracts/Fd.Kit.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "Fd.Kit.HttpApi": {
+      "path": "src/Fd.Kit.HttpApi/Fd.Kit.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "Fd.Kit.HttpApi.Client": {
+      "path": "src/Fd.Kit.HttpApi.Client/Fd.Kit.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "Fd.Kit.EntityFrameworkCore.Tests": {
+      "path": "test/Fd.Kit.EntityFrameworkCore.Tests/Fd.Kit.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "Fd.Kit.EntityFrameworkCore": {
+      "path": "src/Fd.Kit.EntityFrameworkCore/Fd.Kit.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "Fd.Kit.TestBase": {
+      "path": "test/Fd.Kit.TestBase/Fd.Kit.TestBase.abppkg",
+      "folder": "test"
+    },
+    "Fd.Kit.Domain.Tests": {
+      "path": "test/Fd.Kit.Domain.Tests/Fd.Kit.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "Fd.Kit.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/Fd.Kit.HttpApi.Client.ConsoleTestApp/Fd.Kit.HttpApi.Client.ConsoleTestApp.abppkg",
+      "folder": "test"
+    },
+    "Fd.Kit.DbMigrator": {
+      "path": "src/Fd.Kit.DbMigrator/Fd.Kit.DbMigrator.abppkg",
+      "folder": "src"
+    },
+    "Fd.Kit.HttpApi.Host": {
+      "path": "src/Fd.Kit.HttpApi.Host/Fd.Kit.HttpApi.Host.abppkg",
+      "folder": "src"
+    },
+    "Fd.Kit.Domain": {
+      "path": "src/Fd.Kit.Domain/Fd.Kit.Domain.abppkg",
+      "folder": "src"
+    }
+  }
+}

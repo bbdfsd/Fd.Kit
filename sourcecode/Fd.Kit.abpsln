@@ -1,0 +1,25 @@
+{
+  "id": "3d450b3d-b0f5-4a6a-a75f-c98e48798cc9",
+  "template": "app",
+  "versions": {
+    "AbpFramework": "8.2.0",
+    "AbpStudio": "0.7.3"
+  },
+  "modules": {
+    "Fd.Kit": {
+      "path": "Fd.Kit.abpmdl"
+    }
+  }, 
+  "runProfiles": {
+    "Default": {
+      "path": "etc/abp-studio/run-profiles/Default.abprun.json"
+    }
+  },
+  "options": {
+    "httpRequests": {
+        "ignoredUrls": [
+          "^/metrics$"
+      ]
+    }
+  }
+}

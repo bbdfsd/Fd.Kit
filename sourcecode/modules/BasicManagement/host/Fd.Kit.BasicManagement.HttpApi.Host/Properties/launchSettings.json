@@ -1,0 +1,13 @@
+{
+  "profiles": {
+    "Fd.Kit.BasicManagement.HttpApi.Host": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "applicationUrl": "http://localhost:40000",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "ASPNETCORE_URLS": "http://localhost:40000" // 添加这一行
+      }
+    }
+  }
+}

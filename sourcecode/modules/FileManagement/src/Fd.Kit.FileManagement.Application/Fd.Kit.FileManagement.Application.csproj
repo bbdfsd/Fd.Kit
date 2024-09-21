@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <RootNamespace>Fd.Kit.FileManagement</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Volo.Abp.AutoMapper" />
+        <PackageReference Include="Volo.Abp.Ddd.Application" />
+        <PackageReference Include="Volo.Abp.BlobStoring.Aliyun" />
+        <ProjectReference Include="..\Fd.Kit.FileManagement.Application.Contracts\Fd.Kit.FileManagement.Application.Contracts.csproj" />
+        <ProjectReference Include="..\Fd.Kit.FileManagement.Domain\Fd.Kit.FileManagement.Domain.csproj" />
+    </ItemGroup>
+
+</Project>

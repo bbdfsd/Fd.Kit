@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+
+    <PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+        <RootNamespace>Fd.Kit.FileManagement</RootNamespace>
+        <GenerateEmbeddedFilesManifest>true</GenerateEmbeddedFilesManifest>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Volo.Abp.Validation" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.Extensions.FileProviders.Embedded" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <EmbeddedResource Include="Localization\FileManagement\*.json" />
+        <Content Remove="Localization\FileManagement\*.json" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\..\..\frameworks\src\Fd.Kit.Core\Fd.Kit.Core.csproj" />
+    </ItemGroup>
+
+</Project>

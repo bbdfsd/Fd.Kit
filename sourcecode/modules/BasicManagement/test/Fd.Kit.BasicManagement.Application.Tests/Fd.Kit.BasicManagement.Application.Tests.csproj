@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Fd.Kit.BasicManagement</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Fd.Kit.BasicManagement.Application\Fd.Kit.BasicManagement.Application.csproj" />
+    <ProjectReference Include="..\Fd.Kit.BasicManagement.Domain.Tests\Fd.Kit.BasicManagement.Domain.Tests.csproj" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" />
+  </ItemGroup>
+
+</Project>
