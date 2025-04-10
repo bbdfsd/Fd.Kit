@@ -36,7 +36,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0.solutions", "0.solutions", "{FE2B9575-E00E-4409-B3E0-C7204F38A611}"
 	ProjectSection(SolutionItems) = preProject
 		..\..\common.props = ..\..\common.props
-		..\..\Directory.Build.props = ..\..\Directory.Build.props
+		..\..\Directory.Packages.props = ..\..\Directory.Packages.props
 		..\..\global.json = ..\..\global.json
 	EndProjectSection
 EndProject
