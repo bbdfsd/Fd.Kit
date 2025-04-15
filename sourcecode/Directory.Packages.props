@@ -2,6 +2,8 @@
   <PropertyGroup>
     <!-- Enable central package management -->
     <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+    <!-- Define Global NuGet Version -->
+    <VoloAbpVersion>8.3.4</VoloAbpVersion>
   </PropertyGroup>
   <ItemGroup>
     <!-- Microsoft -->
@@ -14,7 +16,7 @@
     <PackageVersion Include="Microsoft.AspNetCore.SignalR.StackExchangeRedis" Version="8.0.0"/>
     <PackageVersion Include="Microsoft.Extensions.Caching.StackExchangeRedis" Version="8.0.0"/>
     <PackageVersion Include="Microsoft.Extensions.Http.Polly" Version="8.0.0"/>
-    <PackageVersion Include="Microsoft.EntityFrameworkCore.Abstractions" Version="8.0.0"/>
+    <PackageVersion Include="Microsoft.EntityFrameworkCore.Abstractions" Version="8.0.4"/>
     <PackageVersion Include="Microsoft.Extensions.FileProviders.Embedded" Version="8.0.7"/>
     <PackageVersion Include="Microsoft.Extensions.Hosting" Version="8.0.0" />
     <PackageVersion Include="Microsoft.Extensions.DependencyInjection" Version="8.0.0" />
@@ -30,98 +32,105 @@
     <PackageVersion Include="AspNetCore.HealthChecks.UI.InMemory.Storage" Version="7.0.0"/>
 
     <!-- Volo -->
-    <PackageVersion Include="Volo.Abp.Autofac" Version="8.3.4"/>
-    <PackageVersion Include="Volo.Abp.Threading" Version="8.3.4"/>
-    <PackageVersion Include="Volo.Abp.Json" Version="8.3.4"/>
-    <PackageVersion Include="Volo.Abp.Validation" Version="8.3.4"/>
-    <PackageVersion Include="Volo.Abp.Ddd.Domain" Version="8.3.4"/>
-    <PackageVersion Include="Volo.Abp.AutoMapper" Version="8.3.4"/>
-    <PackageVersion Include="Volo.Abp.ObjectMapping" Version="8.3.4"/>
-    <PackageVersion Include="Volo.Abp.Identity.AspNetCore" Version="8.3.4"/>
-    <PackageVersion Include="Volo.Abp.Caching" Version="8.3.4"/>
-    <PackageVersion Include="Volo.Abp.BlobStoring.Aliyun" Version="8.3.4"/>
-    <PackageVersion Include="Volo.Abp.BackgroundJobs" Version="8.3.4"/>
-    <PackageVersion Include="Volo.Abp.Authorization.Abstractions" Version="8.3.4"/>
-    <PackageVersion Include="Volo.Abp.BackgroundJobs.HangFire" Version="8.3.4"/>
-    <PackageVersion Include="Volo.Abp.AspNetCore.SignalR" Version="8.3.4"/>
-    <PackageVersion Include="Volo.Abp.TestBase" Version="8.3.4"/>
-    <PackageVersion Include="Volo.Abp.EntityFrameworkCore.SqlServer" Version="8.3.4"/>
-    <PackageVersion Include="Volo.Abp.PermissionManagement.EntityFrameworkCore" Version="8.3.4"/>
-    <PackageVersion Include="Volo.Abp.SettingManagement.EntityFrameworkCore" Version="8.3.4"/>
-    <PackageVersion Include="Volo.Abp.Identity.EntityFrameworkCore" Version="8.3.4"/>
-    <PackageVersion Include="Volo.Abp.BackgroundJobs.EntityFrameworkCore" Version="8.3.4"/>
-    <PackageVersion Include="Volo.Abp.AuditLogging.EntityFrameworkCore" Version="8.3.4"/>
-    <PackageVersion Include="Volo.Abp.TenantManagement.EntityFrameworkCore" Version="8.3.4"/>
-    <PackageVersion Include="Volo.Abp.FeatureManagement.EntityFrameworkCore" Version="8.3.4"/>
-    <PackageVersion Include="Volo.Abp.AspNetCore.Authentication.JwtBearer" Version="8.3.4"/>
-    <PackageVersion Include="Volo.Abp.AspNetCore.Mvc.Contracts" Version="8.3.4"/>
-    <PackageVersion Include="Volo.Abp.Account.Web" Version="8.3.4"/>
-    <PackageVersion Include="Volo.Abp.Caching.StackExchangeRedis" Version="8.3.4"/>
-    <PackageVersion Include="Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy" Version="8.3.4"/>
-    <PackageVersion Include="Volo.Abp.EntityFrameworkCore.PostgreSql" Version="8.3.4"/>
-    <PackageVersion Include="Volo.Abp.AspNetCore.Serilog" Version="8.3.4"/>
-    <PackageVersion Include="Volo.Abp.Swashbuckle" Version="8.3.4"/>
-    <PackageVersion Include="Volo.Abp.Ddd.Application" Version="8.3.4"/>
-    <PackageVersion Include="Volo.Abp.Ddd.Application.Contracts" Version="8.3.4"/>
-    <PackageVersion Include="Volo.Abp.Authorization" Version="8.3.4"/>
-    <PackageVersion Include="Volo.Abp.Dapper" Version="8.3.4"/>
-    <PackageVersion Include="Volo.Abp.AspNetCore.Mvc" Version="8.3.4"/>
-    <PackageVersion Include="Volo.Abp.Http.Client" Version="8.3.4"/>
-    <PackageVersion Include="Volo.Abp.MongoDB" Version="8.3.4"/>
-    <PackageVersion Include="Volo.Abp.EntityFrameworkCore.Sqlite" Version="8.3.4"/>
-    <PackageVersion Include="Volo.Abp.Http.Client.IdentityModel" Version="8.3.4"/>
-    <PackageVersion Include="Volo.Abp.AspNetCore.MultiTenancy" Version="8.3.4"/>
-    <PackageVersion Include="Volo.Abp.Account.Application" Version="8.3.4"/>
-    <PackageVersion Include="Volo.Abp.Identity.Application" Version="8.3.4"/>
-    <PackageVersion Include="Volo.Abp.PermissionManagement.Application" Version="8.3.4"/>
-    <PackageVersion Include="Volo.Abp.TenantManagement.Application" Version="8.3.4"/>
-    <PackageVersion Include="Volo.Abp.FeatureManagement.Application" Version="8.3.4"/>
-    <PackageVersion Include="Volo.Abp.SettingManagement.Application" Version="8.3.4"/>
-    <PackageVersion Include="Volo.Abp.ObjectExtending" Version="8.3.4"/>
-    <PackageVersion Include="Volo.Abp.Account.Application.Contracts" Version="8.3.4"/>
-    <PackageVersion Include="Volo.Abp.Identity.Application.Contracts" Version="8.3.4"/>
-    <PackageVersion Include="Volo.Abp.PermissionManagement.Application.Contracts" Version="8.3.4"/>
-    <PackageVersion Include="Volo.Abp.TenantManagement.Application.Contracts" Version="8.3.4"/>
-    <PackageVersion Include="Volo.Abp.FeatureManagement.Application.Contracts" Version="8.3.4"/>
-    <PackageVersion Include="Volo.Abp.SettingManagement.Application.Contracts" Version="8.3.4"/>
-    <PackageVersion Include="Volo.Abp.Emailing" Version="8.3.4"/>
-    <PackageVersion Include="Volo.Abp.PermissionManagement.Domain.Identity" Version="8.3.4"/>
-    <PackageVersion Include="Volo.Abp.BackgroundJobs.Domain" Version="8.3.4"/>
-    <PackageVersion Include="Volo.Abp.AuditLogging.Domain" Version="8.3.4"/>
-    <PackageVersion Include="Volo.Abp.TenantManagement.Domain" Version="8.3.4"/>
-    <PackageVersion Include="Volo.Abp.FeatureManagement.Domain" Version="8.3.4"/>
-    <PackageVersion Include="Volo.Abp.SettingManagement.Domain" Version="8.3.4"/>
-    <PackageVersion Include="Volo.Abp.Identity.Domain" Version="8.3.4"/>
-    <PackageVersion Include="Volo.Abp.Identity.Domain.Shared" Version="8.3.4"/>
-    <PackageVersion Include="Volo.Abp.BackgroundJobs.Domain.Shared" Version="8.3.4"/>
-    <PackageVersion Include="Volo.Abp.AuditLogging.Domain.Shared" Version="8.3.4"/>
-    <PackageVersion Include="Volo.Abp.TenantManagement.Domain.Shared" Version="8.3.4"/>
-    <PackageVersion Include="Volo.Abp.FeatureManagement.Domain.Shared" Version="8.3.4"/>
-    <PackageVersion Include="Volo.Abp.PermissionManagement.Domain.Shared" Version="8.3.4"/>
-    <PackageVersion Include="Volo.Abp.SettingManagement.Domain.Shared" Version="8.3.4"/>
-    <PackageVersion Include="Volo.Abp.Account.HttpApi" Version="8.3.4"/>
-    <PackageVersion Include="Volo.Abp.Identity.HttpApi" Version="8.3.4"/>
-    <PackageVersion Include="Volo.Abp.PermissionManagement.HttpApi" Version="8.3.4"/>
-    <PackageVersion Include="Volo.Abp.TenantManagement.HttpApi" Version="8.3.4"/>
-    <PackageVersion Include="Volo.Abp.FeatureManagement.HttpApi" Version="8.3.4"/>
-    <PackageVersion Include="Volo.Abp.SettingManagement.HttpApi" Version="8.3.4"/>
-    <PackageVersion Include="Volo.Abp.Account.HttpApi.Client" Version="8.3.4"/>
-    <PackageVersion Include="Volo.Abp.Identity.HttpApi.Client" Version="8.3.4"/>
-    <PackageVersion Include="Volo.Abp.PermissionManagement.HttpApi.Client" Version="8.3.4"/>
-    <PackageVersion Include="Volo.Abp.TenantManagement.HttpApi.Client" Version="8.3.4"/>
-    <PackageVersion Include="Volo.Abp.FeatureManagement.HttpApi.Client" Version="8.3.4"/>
-    <PackageVersion Include="Volo.Abp.SettingManagement.HttpApi.Client" Version="8.3.4"/>
-    <PackageVersion Include="Volo.Abp" Version="8.3.4"/>
-    <PackageVersion Include="Volo.Abp.AspNetCore" Version="8.3.4"/>
-    <PackageVersion Include="Volo.Abp.Core" Version="8.3.4"/>
-    <PackageVersion Include="Volo.Abp.EntityFrameworkCore" Version="8.3.4"/>
-    <PackageVersion Include="Volo.Abp.AspNetCore.TestBase" Version="8.3.4"/>
-    <PackageVersion Include="Volo.Abp.AspNetCore.Mvc.UI.Theme.Basic" Version="8.3.4"/>
-    <PackageVersion Include="Volo.Abp.EventBus" Version="8.3.4"/>
-    <PackageVersion Include="Volo.Abp.Localization" Version="8.3.4" />
+    <PackageVersion Include="Volo.Abp" Version="$(VoloAbpVersion)"/>
+    <PackageVersion Include="Volo.Abp.AspNetCore" Version="$(VoloAbpVersion)"/>
+    <PackageVersion Include="Volo.Abp.Core" Version="$(VoloAbpVersion)"/>
+    <PackageVersion Include="Volo.Abp.AspNetCore.Mvc.UI.Theme.Basic" Version="$(VoloAbpVersion)"/>
+    <PackageVersion Include="Volo.Abp.EventBus" Version="$(VoloAbpVersion)"/>
+    <PackageVersion Include="Volo.Abp.Localization" Version="$(VoloAbpVersion)" />
     <PackageVersion Include="Volo.Abp.AspNetCore.Mvc.UI.Theme.LeptonXLite" Version="3.2.2" />
     <PackageVersion Include="Volo.Abp.Studio.Client.AspNetCore" Version="0.7.8" />
-    <PackageVersion Include="Volo.Abp.Account.Web.OpenIddict" Version="8.3.4"/>
+    <PackageVersion Include="Volo.Abp.Autofac" Version="$(VoloAbpVersion)"/>
+    <PackageVersion Include="Volo.Abp.Threading" Version="$(VoloAbpVersion)"/>
+    <PackageVersion Include="Volo.Abp.Json" Version="$(VoloAbpVersion)"/>
+    <PackageVersion Include="Volo.Abp.Validation" Version="$(VoloAbpVersion)"/>
+    <PackageVersion Include="Volo.Abp.Ddd.Domain" Version="$(VoloAbpVersion)"/>
+    <PackageVersion Include="Volo.Abp.AutoMapper" Version="$(VoloAbpVersion)"/>
+    <PackageVersion Include="Volo.Abp.ObjectMapping" Version="$(VoloAbpVersion)"/>
+    <PackageVersion Include="Volo.Abp.Identity.AspNetCore" Version="$(VoloAbpVersion)"/>
+    <PackageVersion Include="Volo.Abp.Caching" Version="$(VoloAbpVersion)"/>
+    <PackageVersion Include="Volo.Abp.BackgroundJobs" Version="$(VoloAbpVersion)"/>
+    <PackageVersion Include="Volo.Abp.Authorization.Abstractions" Version="$(VoloAbpVersion)"/>
+    <PackageVersion Include="Volo.Abp.Authorization" Version="$(VoloAbpVersion)"/>
+    <PackageVersion Include="Volo.Abp.AspNetCore.SignalR" Version="$(VoloAbpVersion)"/>
+    <PackageVersion Include="Volo.Abp.AspNetCore.Authentication.JwtBearer" Version="$(VoloAbpVersion)"/>
+    <PackageVersion Include="Volo.Abp.AspNetCore.Mvc.Contracts" Version="$(VoloAbpVersion)"/>    
+    <PackageVersion Include="Volo.Abp.Caching.StackExchangeRedis" Version="$(VoloAbpVersion)"/>
+    <PackageVersion Include="Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy" Version="$(VoloAbpVersion)"/>
+    <PackageVersion Include="Volo.Abp.AspNetCore.Serilog" Version="$(VoloAbpVersion)"/>
+    <PackageVersion Include="Volo.Abp.Swashbuckle" Version="$(VoloAbpVersion)"/>
+    <PackageVersion Include="Volo.Abp.Ddd.Application" Version="$(VoloAbpVersion)"/>
+    <PackageVersion Include="Volo.Abp.Ddd.Application.Contracts" Version="$(VoloAbpVersion)"/>
+    <PackageVersion Include="Volo.Abp.Dapper" Version="$(VoloAbpVersion)"/>
+    <PackageVersion Include="Volo.Abp.AspNetCore.Mvc" Version="$(VoloAbpVersion)"/>
+    <PackageVersion Include="Volo.Abp.Http.Client" Version="$(VoloAbpVersion)"/>
+    <PackageVersion Include="Volo.Abp.EntityFrameworkCore.Sqlite" Version="$(VoloAbpVersion)"/>
+    <PackageVersion Include="Volo.Abp.Http.Client.IdentityModel" Version="$(VoloAbpVersion)"/>
+    <PackageVersion Include="Volo.Abp.AspNetCore.MultiTenancy" Version="$(VoloAbpVersion)"/>
+    <PackageVersion Include="Volo.Abp.ObjectExtending" Version="$(VoloAbpVersion)"/>
+    <PackageVersion Include="Volo.Abp.Emailing" Version="$(VoloAbpVersion)"/>
+    <PackageVersion Include="Volo.Abp.Account.Application" Version="$(VoloAbpVersion)"/>
+    <PackageVersion Include="Volo.Abp.Identity.Application" Version="$(VoloAbpVersion)"/>
+    <PackageVersion Include="Volo.Abp.PermissionManagement.Application" Version="$(VoloAbpVersion)"/>
+    <PackageVersion Include="Volo.Abp.TenantManagement.Application" Version="$(VoloAbpVersion)"/>
+    <PackageVersion Include="Volo.Abp.FeatureManagement.Application" Version="$(VoloAbpVersion)"/>
+    <PackageVersion Include="Volo.Abp.SettingManagement.Application" Version="$(VoloAbpVersion)"/>
+    <PackageVersion Include="Volo.Abp.Account.Application.Contracts" Version="$(VoloAbpVersion)"/>
+    <PackageVersion Include="Volo.Abp.Identity.Application.Contracts" Version="$(VoloAbpVersion)"/>
+    <PackageVersion Include="Volo.Abp.PermissionManagement.Application.Contracts" Version="$(VoloAbpVersion)"/>
+    <PackageVersion Include="Volo.Abp.TenantManagement.Application.Contracts" Version="$(VoloAbpVersion)"/>
+    <PackageVersion Include="Volo.Abp.FeatureManagement.Application.Contracts" Version="$(VoloAbpVersion)"/>
+    <PackageVersion Include="Volo.Abp.SettingManagement.Application.Contracts" Version="$(VoloAbpVersion)"/>
+    <PackageVersion Include="Volo.Abp.PermissionManagement.Domain.Identity" Version="$(VoloAbpVersion)"/>
+    <PackageVersion Include="Volo.Abp.AuditLogging.Domain" Version="$(VoloAbpVersion)"/>
+    <PackageVersion Include="Volo.Abp.TenantManagement.Domain" Version="$(VoloAbpVersion)"/>
+    <PackageVersion Include="Volo.Abp.FeatureManagement.Domain" Version="$(VoloAbpVersion)"/>
+    <PackageVersion Include="Volo.Abp.SettingManagement.Domain" Version="$(VoloAbpVersion)"/>
+    <PackageVersion Include="Volo.Abp.Identity.Domain" Version="$(VoloAbpVersion)"/>
+    <PackageVersion Include="Volo.Abp.Identity.Domain.Shared" Version="$(VoloAbpVersion)"/>
+    <PackageVersion Include="Volo.Abp.BackgroundJobs.Domain.Shared" Version="$(VoloAbpVersion)"/>
+    <PackageVersion Include="Volo.Abp.BackgroundJobs.Domain" Version="$(VoloAbpVersion)"/>
+    <PackageVersion Include="Volo.Abp.BackgroundJobs.Abstractions" Version="$(VoloAbpVersion)"/>
+    <PackageVersion Include="Volo.Abp.AuditLogging.Domain.Shared" Version="$(VoloAbpVersion)"/>
+    <PackageVersion Include="Volo.Abp.TenantManagement.Domain.Shared" Version="$(VoloAbpVersion)"/>
+    <PackageVersion Include="Volo.Abp.FeatureManagement.Domain.Shared" Version="$(VoloAbpVersion)"/>
+    <PackageVersion Include="Volo.Abp.PermissionManagement.Domain.Shared" Version="$(VoloAbpVersion)"/>
+    <PackageVersion Include="Volo.Abp.SettingManagement.Domain.Shared" Version="$(VoloAbpVersion)"/>
+    <PackageVersion Include="Volo.Abp.Account.HttpApi" Version="$(VoloAbpVersion)"/>
+    <PackageVersion Include="Volo.Abp.Identity.HttpApi" Version="$(VoloAbpVersion)"/>
+    <PackageVersion Include="Volo.Abp.PermissionManagement.HttpApi" Version="$(VoloAbpVersion)"/>
+    <PackageVersion Include="Volo.Abp.TenantManagement.HttpApi" Version="$(VoloAbpVersion)"/>
+    <PackageVersion Include="Volo.Abp.FeatureManagement.HttpApi" Version="$(VoloAbpVersion)"/>
+    <PackageVersion Include="Volo.Abp.SettingManagement.HttpApi" Version="$(VoloAbpVersion)"/>
+    <PackageVersion Include="Volo.Abp.Account.HttpApi.Client" Version="$(VoloAbpVersion)"/>
+    <PackageVersion Include="Volo.Abp.Identity.HttpApi.Client" Version="$(VoloAbpVersion)"/>
+    <PackageVersion Include="Volo.Abp.PermissionManagement.HttpApi.Client" Version="$(VoloAbpVersion)"/>
+    <PackageVersion Include="Volo.Abp.TenantManagement.HttpApi.Client" Version="$(VoloAbpVersion)"/>
+    <PackageVersion Include="Volo.Abp.FeatureManagement.HttpApi.Client" Version="$(VoloAbpVersion)"/>
+    <PackageVersion Include="Volo.Abp.SettingManagement.HttpApi.Client" Version="$(VoloAbpVersion)"/>
+    <PackageVersion Include="Volo.Abp.OpenIddict.EntityFrameworkCore" Version="$(VoloAbpVersion)"/>
+    <PackageVersion Include="Volo.Abp.OpenIddict.Domain.Shared" Version="$(VoloAbpVersion)"/>
+    <PackageVersion Include="Volo.Abp.OpenIddict.Domain" Version="$(VoloAbpVersion)"/>
+    <PackageVersion Include="Volo.Abp.GlobalFeatures" Version="$(VoloAbpVersion)"/>
+    <PackageVersion Include="Volo.Abp.EntityFrameworkCore" Version="$(VoloAbpVersion)"/>
+    <PackageVersion Include="Volo.Abp.BlobStoring.Database.EntityFrameworkCore" Version="$(VoloAbpVersion)"/>
+    <PackageVersion Include="Volo.Abp.BlobStoring.Database.Domain.Shared" Version="$(VoloAbpVersion)"/>
+    <PackageVersion Include="Volo.Abp.BlobStoring.Database.Domain" Version="$(VoloAbpVersion)"/>
+    <PackageVersion Include="Volo.Abp.Account.Web.OpenIddict" Version="$(VoloAbpVersion)"/>
+    <PackageVersion Include="Volo.Abp.TestBase" Version="$(VoloAbpVersion)"/>
+    <PackageVersion Include="Volo.Abp.AspNetCore.TestBase" Version="$(VoloAbpVersion)"/>
+    <PackageVersion Include="Volo.Abp.Account.Web" Version="$(VoloAbpVersion)"/>
+    <PackageVersion Include="Volo.Abp.BackgroundJobs.HangFire" Version="$(VoloAbpVersion)"/>
+    <PackageVersion Include="Volo.Abp.EntityFrameworkCore.SqlServer" Version="$(VoloAbpVersion)"/>
+    <PackageVersion Include="Volo.Abp.BlobStoring.Aliyun" Version="$(VoloAbpVersion)"/>
+    <PackageVersion Include="Volo.Abp.PermissionManagement.EntityFrameworkCore" Version="$(VoloAbpVersion)"/>
+    <PackageVersion Include="Volo.Abp.PermissionManagement.Domain.OpenIddict" Version="$(VoloAbpVersion)"/>
+    <PackageVersion Include="Volo.Abp.SettingManagement.EntityFrameworkCore" Version="$(VoloAbpVersion)"/>
+    <PackageVersion Include="Volo.Abp.Identity.EntityFrameworkCore" Version="$(VoloAbpVersion)"/>
+    <PackageVersion Include="Volo.Abp.BackgroundJobs.EntityFrameworkCore" Version="$(VoloAbpVersion)"/>
+    <PackageVersion Include="Volo.Abp.AuditLogging.EntityFrameworkCore" Version="$(VoloAbpVersion)"/>
+    <PackageVersion Include="Volo.Abp.TenantManagement.EntityFrameworkCore" Version="$(VoloAbpVersion)"/>
+    <PackageVersion Include="Volo.Abp.FeatureManagement.EntityFrameworkCore" Version="$(VoloAbpVersion)"/>
 
     <!-- 单元测试包-->
     <PackageVersion Include="xunit" Version="2.6.1"/>
@@ -132,6 +141,7 @@
     <PackageVersion Include="coverlet.collector" Version="6.0.0"/>
     <PackageVersion Include="JunitXml.TestLogger" Version="3.0.134"/>
     <PackageVersion Include="AutoFixture.Xunit2" Version="4.18.1"/>
+    <PackageVersion Include="NSubstitute.Analyzers.CSharp" Version="1.0.17"/>
     <!-- Swagger-->
     <PackageVersion Include="Swashbuckle.AspNetCore.SwaggerUI" Version="6.5.0"/>
     <PackageVersion Include="Swashbuckle.AspNetCore" Version="6.5.0"/>

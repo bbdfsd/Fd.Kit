@@ -1,7 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <Import Project="..\..\common.props" />
-  <Import Project="..\..\Directory.Packages.props" />
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -15,10 +14,10 @@
     <PackageReference Include="Serilog.Sinks.File" />
     <PackageReference Include="Serilog.Sinks.Console" />
     <PackageReference Include="Microsoft.Extensions.Hosting" />
+    <PackageReference Include="Volo.Abp.Autofac" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Volo.Abp.Autofac" />
     <ProjectReference Include="..\Fd.Kit.EntityFrameworkCore\Fd.Kit.EntityFrameworkCore.csproj" />
     <ProjectReference Include="..\Fd.Kit.Application.Contracts\Fd.Kit.Application.Contracts.csproj" />
   </ItemGroup>
